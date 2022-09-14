@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+        <div class="divider-container">
+            <h1 class="title2">Quesstions And Answers Blog</h1>
+          </div>
+    </header>
+    <main>
+        <article>
+            <h2>Difference between localStorage and sessionStorage</h2>
+            <br>
+            <p>The major difference is localStorage persists the storage across browser sessions. So even if the domain is opened in a new tab, or the browser is closed and reopened, the storage is saved. There is no expiration.
+            On the opposite side, sessionStorage is cleared when the page session ends. A page session lasts as long as the tab or the browser is open. Therefore, when you open a new tab or a new window, this creates a new session and new storage.
+            <br>
+            For both local storage and session storage, you can set, get, remove, and clear items using the appropriate methods. We have to use it like below: <br>
+            window.localStorage.(methods here); <br>
+            window.sessionStorage.(methods here); <br>
+
+            Thus, using the Web Storage API is easy to use and helpful when you need to store some data in the browser.
+        </p>
+        </article>
+        <article>
+            <h2>Difference between global scope and ;ocal scope</h2>
+            <br>
+            <p><b>Global scope:</b> The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.
+                <br>
+            <b>Local Scope:</b> If you were to define some variables inside curly brackets {} or inside a specific function then those variables are called local variables The local variables have a very confined scope which is called the local scope But, with the release of ES6, the local scope was further broken down into two different scopes:
+            <strong>Function scope</strong>
+            <strong>Block scope.</strong>
+                
+        </p>
+        </article>
+        <article>
+            <h2>How event look works in javascript</h2>
+            <p>The common denominator in all environments is a built-in mechanism called the event loop, which handles the execution of multiple chunks of your program over time, each time invoking the JS Engine.
+            <br>    
+            The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
+                <br>
+            Such an iteration is called a tick in the Event Loop. Each event is just a function callback.
+        </p>
+        </article>
+        <article>
+            <h2>How many time we can get undefined in javascript</h2>
+            <p>The undefined is a primitive type in JavaScript. So the undefined is a type. And the undefined type has exactly one value that is undefined.
+            <br>
+            <b>1) Accessing an uninitialized variable</b> <br>
+            When you declare a variable and don’t initialize it to a value, the variable will have a value of undefined. <br>
+            <b>2) Accessing a non-existing property of an object</b> <br>
+            If you access a non-existing property of an object, you’ll get undefined. <br>
+            <b>3) Function parameters</b> <br>
+            When you call a function with a number of parameters, you often pass the same number of arguments. <br>
+            <b>4) Functions return a value</b> <br>
+            A function that doesn’t have a return statement implicitly returns undefined. <br>
+            <b>5) Accessing out-of-bounds array elements</b> <br>
+            When you access an array element that is out-of-bounds, you’ll get the undefined value.  <br>
+        </p>
+        </article>
+    </main>
+
+</body>
+</html>

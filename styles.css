@@ -11,6 +11,29 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav a{
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+article {
+  color: #fff;
+  padding: 30px 100px;
+  margin: 0px 100px;
+}
+
+article p{
+  font-size: 18px;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
